@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.social-container {
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+/* #eb3223 */
+a.youtube {
+  color: black;
+}
+
+/* #4968ad */
+a.facebook {
+  color: black;
+}
+
+/* #49a1eb */
+a.twitter {
+  color: black;
+}
+
+a.instagram {
+  color: black;
+}
+
+a.github {
+  color: black;
+}
