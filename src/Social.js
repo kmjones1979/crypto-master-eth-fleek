@@ -6,12 +6,14 @@ import {
   faTwitter,
   faInstagram,
   faGithub,
+  faMedium,
 } from "@fortawesome/free-brands-svg-icons";
+import { faUser, faEnvelope } from "@fortawesome/fontawesome-svg-core";
 
 export default function Social() {
   return (
     <div class="social-container">
-      <h3>Socials</h3>
+      <h3>Stay Connected.</h3>
       <a
         href="https://www.youtube.com/channel/UC0oh5rRMumIrBJBfJLH-Mvw"
         className="youtube social"
@@ -25,6 +27,13 @@ export default function Social() {
         className="twitter social"
       >
         <FontAwesomeIcon icon={faTwitter} size="3x" />
+      </a>
+      <a
+        href="https://medium.com/@cryptomastery.eth"
+        target="_blank"
+        className="medium social"
+      >
+        <FontAwesomeIcon icon={faMedium} size="3x" />
       </a>
       <a
         href="https://www.facebook.com/cryptomastery.eth"
