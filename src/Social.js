@@ -7,13 +7,16 @@ import {
   faInstagram,
   faGithub,
   faMedium,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faUser, faEnvelope } from "@fortawesome/fontawesome-svg-core";
+import "animate.css";
 
 export default function Social() {
   return (
     <div class="social-container">
-      <h3>Stay Connected.</h3>
+      <h1>🥷</h1>
+      <p>Stay Connected</p>
       <a
         href="https://www.youtube.com/channel/UC0oh5rRMumIrBJBfJLH-Mvw"
         className="youtube social"
@@ -55,6 +58,13 @@ export default function Social() {
         className="github social"
       >
         <FontAwesomeIcon icon={faGithub} size="3x" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/kevinjones-crypto/"
+        target="_blank"
+        className="linkedin social"
+      >
+        <FontAwesomeIcon icon={faLinkedin} size="3x" />
       </a>
     </div>
   );
